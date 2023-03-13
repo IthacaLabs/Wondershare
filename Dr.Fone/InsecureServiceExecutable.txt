@@ -1,0 +1,46 @@
+Wondershare Dr.Fone version 12.9.6 running services named "WsAppService, Wondershare InstallAssist, DFWSIDService, ElevationService, NativePushService, and WirelessBackupService" on Windows that have weak service permissions and are susceptible to local privilege escalation vulnerability and persistence attacks. Weak services run with system user permission, allowing a standard user/domain user to elevate to administrator privilege upon successfully overwritting/replacing the affected executables. 
+
+
+Affected Services:
+------------------
+Wondershare WirelessBackup Service help                  WirelessBackupService                       C:\Program Files (x86)\Wondershare\drfone\Addins\Backup\WirelessBackupService.exe	         Auto     
+Wondershare Application Framework Service                WsAppService                                C:\Program Files (x86)\Wondershare\WAF\2.4.3.237\WsAppService.exe   	                 Auto                                  
+Wondershare Install Assist Service                       Wondershare InstallAssist                   C:\ProgramData\Wondershare\Service\InstallAssistService.exe	                         Auto                                         
+Wondershare WSID help                                    DFWSIDService                               C:\ProgramData\Wondershare\wsServices\WsidService.exe	                                 Auto                                         
+Wondershare Driver Install Service help                  ElevationService                            C:\ProgramData\Wondershare\wsServices\ElevationService.exe	                                 Auto                                         
+Wondershare Native Push Service                          NativePushService                           C:\Users\Nkola\AppData\Local\Wondershare\Wondershare NativePush\WsNativePushService.exe	 Auto                  
+             
+
+
+
+Directory Permissions:
+----------------------
+
+Wondershare Everyone:(OI)(CI)(F)
+            NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+            BUILTIN\Administrators:(I)(OI)(CI)(F)
+            CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+            BUILTIN\Users:(I)(OI)(CI)(RX)
+            BUILTIN\Users:(I)(CI)(WD,AD,WEA,WA)
+
+
+
+
+Wondershare\Service Everyone:(I)(OI)(CI)(F)
+                    NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+                    BUILTIN\Administrators:(I)(OI)(CI)(F)
+                    CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+                    BUILTIN\Users:(I)(OI)(CI)(RX)
+                    BUILTIN\Users:(I)(CI)(WD,AD,WEA,WA)
+
+
+
+Wondershare\dr.fone Everyone:(I)(OI)(CI)(F)
+                    NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+                    BUILTIN\Administrators:(I)(OI)(CI)(F)
+                    CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+                    BUILTIN\Users:(I)(OI)(CI)(RX)
+                    BUILTIN\Users:(I)(CI)(WD,AD,WEA,WA)
+					
+					
+
