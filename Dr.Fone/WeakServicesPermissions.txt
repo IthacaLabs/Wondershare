@@ -1,7 +1,7 @@
 Wondershare Dr.Fone v12.9.6 - Weak Services Permissions
 -------------------------------------------------------
 
-Wondershare Dr.Fone version 12.9.6 running services named "WsAppService, Wondershare InstallAssist, DFWSIDService, ElevationService, NativePushService, and WirelessBackupService" on Windows that have weak service permissions and are susceptible to local privilege escalation vulnerability and persistence attacks. Weak services run with system user permission, allowing a standard user/domain user to elevate to administrator privilege upon successfully overwritting/replacing the affected executables. 
+Wondershare Dr.Fone version 12.9.6 running services named "WsAppService, Wondershare InstallAssist, DFWSIDService, ElevationService, NativePushService, and WirelessBackupService" on Windows that have weak service permissions and are susceptible to local privilege escalation and persistence attacks. Weak services run with system user permission, allowing a standard user/domain user to elevate to administrator privilege upon successfully overwritting/replacing the affected executables.
 
 
 Affected Services:
